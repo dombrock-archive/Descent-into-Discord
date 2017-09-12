@@ -1,0 +1,8 @@
+Stranger
+18
+3d4
+stranger-stick,potion
+3
+A cloaked stranger. He makes no sound, just stands bracing for an attack.
+organic,demonic
+90

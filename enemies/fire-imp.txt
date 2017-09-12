@@ -1,0 +1,8 @@
+Fire Imp
+7
+1d10
+lesser-fire-wand,potion,potion
+3
+A small dark red humanoid. Its has no hair but its skin has multiple cracks that ooze a glowing orange substance. It lets out a high-pitched scream as you approach.
+demonic,fire
+90

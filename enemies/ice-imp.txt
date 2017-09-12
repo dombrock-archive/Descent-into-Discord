@@ -1,0 +1,8 @@
+Ice Imp
+7
+1d10
+lesser-ice-wand,potion,potion
+3
+A small dark blue humanoid. Its skin is bald but you notice small spikes of what looks like to ice protruding out of its skin. It lets out a low moan as you approach.
+demonic,ice
+90

@@ -1,0 +1,8 @@
+Humanoid Raider
+6
+1d8
+bastard-sword,potion
+2
+Probably a human, but its hard to tell what's under it's rusted armor.
+organic,metallic
+90

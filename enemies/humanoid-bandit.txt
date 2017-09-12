@@ -1,0 +1,8 @@
+Humanoid Bandit
+6
+2d4
+glass-dagger
+2
+Probably a human, but its hard to tell what's under it's tattered cloak.
+organic
+90

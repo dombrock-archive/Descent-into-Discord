@@ -1,0 +1,8 @@
+Young Goblin
+2
+1d4
+potion,dirk
+1
+A young and eager looking goblin. It seems to think this is funny.
+organic,flammable
+90

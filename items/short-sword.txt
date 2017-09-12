@@ -1,0 +1,5 @@
+short-sword
+1d6
+steel
+15
+75

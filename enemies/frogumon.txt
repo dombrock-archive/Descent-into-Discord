@@ -1,0 +1,8 @@
+Frogumon
+10
+1d20
+frog-staff,potion,potion
+3
+A legendary frogmancer.
+organic,conductive
+90

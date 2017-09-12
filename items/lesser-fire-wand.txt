@@ -1,0 +1,5 @@
+lesser-fire-wand
+1d10
+fire
+50
+100

@@ -1,0 +1,8 @@
+Several Rats
+16
+4d4
+potion,potion
+3
+Lots of rats. Too many to count...
+organic
+90

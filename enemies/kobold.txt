@@ -1,0 +1,8 @@
+Kobold
+5
+1d10
+spear
+2
+A roughly 4ft tall somewhat humanoid fish-creature. It seems to still be breathing from it's gills despite the fact it is out of the water.
+organic,aquatic
+90

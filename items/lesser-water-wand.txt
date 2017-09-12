@@ -1,0 +1,6 @@
+lesser-water-wand
+1d10
+water
+50
+100
+100

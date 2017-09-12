@@ -1,0 +1,5 @@
+dagger
+1d4
+steel
+10
+95

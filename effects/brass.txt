@@ -1,0 +1,2 @@
+brass
+ice,metallic,stone

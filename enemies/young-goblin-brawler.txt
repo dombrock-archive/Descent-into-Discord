@@ -1,0 +1,8 @@
+Young Goblin Brawler
+6
+2d4
+potion,brass-knuckles
+2
+A particularity angry looking specimen. It's muscles bulge out of it's clothing and it's veins are visibly pulsing.
+organic,flammable
+90

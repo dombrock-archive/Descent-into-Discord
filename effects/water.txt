@@ -1,0 +1,2 @@
+water
+fire,electric

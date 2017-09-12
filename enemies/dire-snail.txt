@@ -1,0 +1,8 @@
+Dire Snail
+6
+4d4
+slime,potion
+2
+An unreasonably large snail.
+organic,flammable
+90

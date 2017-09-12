@@ -1,0 +1,8 @@
+Dire Frog
+2
+1d4
+potion,potion
+2
+A frog the size of a large house cat. It's croaks produce such a low frequency that you can feel them in your bones.
+organic,conductive
+90

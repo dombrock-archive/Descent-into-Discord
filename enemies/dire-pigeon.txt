@@ -1,0 +1,8 @@
+Dire Pigeon
+2
+1d4
+potion
+1
+Like a normal pigeon, but dire. It probably carries all kinds of various diseases.
+organic
+90

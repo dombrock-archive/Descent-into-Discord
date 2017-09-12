@@ -1,0 +1,8 @@
+Slime
+1
+1d4
+potion
+1
+A gross amorphous yet sentient blob of what looks and smells like some kind of mold. 
+organic,flammable
+100

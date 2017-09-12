@@ -1,0 +1,5 @@
+broad-sword
+2d4
+steel
+19
+72

@@ -1,0 +1,8 @@
+Two Rats
+2
+2d4
+potion,potion
+1
+The rats looks sick and hungry. Their eyes are glowing a faint red.
+organic
+95

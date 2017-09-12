@@ -1,0 +1,5 @@
+frog-staff
+1d20
+poison
+35
+420

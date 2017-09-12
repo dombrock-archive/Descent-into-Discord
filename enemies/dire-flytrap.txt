@@ -1,0 +1,8 @@
+Dire Flytrap
+4
+1d10
+potion
+2
+A giant plant-creature. It gnashes its jaws wildly looking for prey. It doesn't really seem to notice you...
+organic,plant
+90

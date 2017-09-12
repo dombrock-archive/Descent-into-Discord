@@ -1,0 +1,5 @@
+stranger-stick
+3d4
+darkness
+100
+80

@@ -1,0 +1,8 @@
+Humanoid Rat
+3
+1d6
+potion,broad-sword
+2
+A 3ft tall humanoid rodent. It's eyes glow a bright and fiery red and it bares its rotting teeth. 
+organic
+90

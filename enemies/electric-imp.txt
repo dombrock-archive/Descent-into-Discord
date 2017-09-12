@@ -1,0 +1,8 @@
+Electric Imp
+7
+1d10
+lesser-electric-wand,potion,potion
+3
+A small deep yellow humanoid. It has no hair but you notice what seems to be small static sparks being emitted from its skin as it moves. It hisses as you approach.
+demonic,electric
+90

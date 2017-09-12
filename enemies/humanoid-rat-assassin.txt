@@ -1,0 +1,8 @@
+Humanoid Rat Assassin
+2
+1d10
+glass-dirk,broad-sword
+2
+A 3ft tall cloaked humanoid rodent. It moves silently and deftly. It crouches awaiting your attack.
+organic
+90

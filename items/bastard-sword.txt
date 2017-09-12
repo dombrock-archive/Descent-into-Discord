@@ -1,0 +1,5 @@
+bastard-sword
+1d8
+steel
+16
+70

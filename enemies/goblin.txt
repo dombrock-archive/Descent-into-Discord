@@ -1,0 +1,8 @@
+Goblin
+3
+1d6
+potion,short-sword
+2
+It's skin is dark green and seems to be peeling like a snake, yet it has no visible scales. It's eyes glow a bright fiery turquoise.
+organic,flammable
+90

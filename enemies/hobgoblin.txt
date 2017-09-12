@@ -1,0 +1,8 @@
+Hobgoblin
+12
+1d10
+mace,potion,potion
+3
+A large heavily armored demonic imp. It has no eyes to speak of.
+organic,flammable
+90

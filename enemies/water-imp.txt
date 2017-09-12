@@ -1,0 +1,8 @@
+Water Imp
+7
+1d10
+lesser-water-wand,potion,potion
+3
+A small pale white humanoid. It has no hair but it seems to have some sort of scales or small feathers on its skin. It is silent as you approach.
+organic,aquatic
+90

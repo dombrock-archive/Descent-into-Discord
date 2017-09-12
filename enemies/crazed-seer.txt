@@ -1,0 +1,8 @@
+Crazed Seer
+35
+1d4
+club,potion,potion,potion,potion
+3
+A prophet driven insane by his own visions. He has gouged out his own eyes seemingly recently and is roaming around and shouting without any apparent purpose.
+organic,demonic
+90

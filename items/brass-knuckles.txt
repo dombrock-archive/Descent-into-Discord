@@ -1,0 +1,5 @@
+brass-knuckles
+2d4
+brass
+20
+92

@@ -1,0 +1,5 @@
+lesser-ice-wand
+1d10
+ice
+50
+100

@@ -1,0 +1,5 @@
+glass-dagger
+2d4
+glass
+30
+95

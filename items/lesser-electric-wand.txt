@@ -1,0 +1,5 @@
+lesser-electric-wand
+1d10
+electric
+50
+100

@@ -1,0 +1,2 @@
+ice
+organic,water,fire
