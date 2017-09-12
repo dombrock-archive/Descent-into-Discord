@@ -1,0 +1,5 @@
+deft
+acc
+20
+Attacks by this avatar gain 20% accuracy
+300

@@ -1,0 +1,5 @@
+specialist
+special
+2
+Special attacks by this avatar gain a x2 multiplier (as opposed to x1.5).
+750

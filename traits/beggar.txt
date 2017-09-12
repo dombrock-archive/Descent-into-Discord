@@ -1,0 +1,5 @@
+beggar
+price
+5
+Items from the shop cost 5 less gold.
+250

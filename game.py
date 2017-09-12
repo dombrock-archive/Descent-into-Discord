@@ -30,6 +30,7 @@ enemies_dir = "enemies"
 items_dir = "items"
 effects_dir = "effects"
 enviro_dir = "environments"
+traits_dir = "traits"
 
 enemies = []
 enemy_list = []
@@ -417,7 +418,7 @@ async def on_message(message):
                 if SE == True:
                     msgout += SText("\n"+memories[user][9]+" was SUPER EFFECTIVE and gained a x"+str(multiplier)+" multiplier!\n")
                 if memories[user][13] == "base":
-                    msgout += SText("\n"+memories[user][11]+" caused an x"+str(multiplier)+" multiplier!\n")
+                    msgout += SText("\n"+memories[user][11]+" caused an x"+str(memories[user][14])+" multiplier!\n")
                 enemies[1] = enemies[1] - user_attack#hurt enemy
                 memories[user][6] = memories[user][6] + user_attack #gain xp
                 msgout += SText("\n\n"+enemies[0]+" HP: "+str(enemies[1]))
@@ -665,16 +666,23 @@ def generate_effects_list():
 #litch, revive on death, keep trait
 #blessed, revive on death, lose trait
 def generate_traits_list():
-    global traits_list
-    traits_list.append(["noob","price",2,"Items from the shop cost 2 less gold.",1])
-    traits_list.append(["beggar","price",5,"Items from the shop cost 5 less gold.",250])
-    traits_list.append(["deal-maker","price",10,"Items from the shop cost 10 less gold.",500])
-    traits_list.append(["capitalist","price",100,"Items from the shop cost 100 less gold.",5000])
-    traits_list.append(["knight","hp",5,"This avatar gains an additional 5HP on level up.",250])
-    traits_list.append(["deft","acc",20,"Attacks by this avatar gain 20% accuracy",300])
-    traits_list.append(["agile","agility",20,"Enemy attacks lose 20% accuracy.",300])
-    traits_list.append(["specialist","special",2,"Special attacks by this avatar gain a x2 multiplier (as opposed to x1.5).",750])
-    traits_list.append(["brutal","base",1.5,"Attacks by this avatar always have an additional x1.5 multiplier regardless of enemy type or weapon effect.",1000])
+    global traits_list, traits_dir
+    test = []
+    for filename in os.listdir(traits_dir):
+        ntrait = []
+        print("Loading item: "+filename)
+        abfile = traits_dir+"/"+filename
+        ndata = open(abfile, "r")
+        ndata = ndata.read().split("\n")
+        test.append(ndata)
+        ntrait.append(ndata[0])
+        ntrait.append(ndata[1])
+        ntrait.append(float(ndata[2]))
+        ntrait.append(ndata[3])
+        ntrait.append(int(ndata[4]))
+        traits_list.append(ntrait)
+    pp = pprint.PrettyPrinter(indent=4)
+    pp.pprint(traits_list)
     #todo
     #traits_list.append(["healer","heal",0.25,"When this avatar attacks, it does not do damage to the enemy but instead heals the entire party for x0.25 the damage that would have been dealt by it's attack."])
     #super special add later

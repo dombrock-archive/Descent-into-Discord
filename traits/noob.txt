@@ -1,0 +1,5 @@
+noob
+price
+2
+Items from the shop cost 2 less gold.
+1

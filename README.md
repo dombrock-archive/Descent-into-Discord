@@ -25,5 +25,7 @@ Make sure to put your own API key into the ```did_api_key.py``` file in the root
 ### Known Issues:
 The game might be fun but reading the code is not. The code is very fragile.
  
+A lot of the text is not written in the correct person and refers to the player when it should refer to the players avatar. 
+ 
 ### Dev Server:
 Join the development discussion at: https://discord.gg/kyAZw56

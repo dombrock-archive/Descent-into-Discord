@@ -1,0 +1,5 @@
+brutal
+base
+1.5
+Attacks by this avatar always have an additional x1.5 multiplier regardless of enemy type or weapon effect.
+1000

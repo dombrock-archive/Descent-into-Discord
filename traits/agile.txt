@@ -1,0 +1,5 @@
+agile
+agility
+20
+Enemy attacks lose 20% accuracy.
+300

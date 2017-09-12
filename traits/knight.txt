@@ -1,0 +1,5 @@
+knight
+hp
+5
+This avatar gains an additional 5HP on level up.
+250

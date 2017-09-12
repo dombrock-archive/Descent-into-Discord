@@ -1,0 +1,5 @@
+capitalist
+price
+100
+Items from the shop cost 100 less gold.
+5000

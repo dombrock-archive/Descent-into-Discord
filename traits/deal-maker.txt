@@ -1,0 +1,5 @@
+deal-maker
+price
+10
+Items from the shop cost 10 less gold.
+500
