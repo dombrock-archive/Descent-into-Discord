@@ -12,8 +12,11 @@ Make sure to put your own API key into the ```did_api_key.py``` file in the root
 
 ### Key Features:
 -Supports a potentially unlimited amount of players
--Full mod support. Everything from enemies and items to character traits and environmental descriptions are modable with ZERO coding experience. 
+
+-Full mod support. Everything from enemies and items to character traits and environmental descriptions are modable with ZERO coding experience.
+
 -Asynchronous player turns. No waiting around. 
+
 -Simple yet deep gameplay loop. The game is easy to learn but that does not hold back the depth. 
 
 ### About the game:
