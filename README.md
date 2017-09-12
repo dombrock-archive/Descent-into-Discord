@@ -1,7 +1,7 @@
 # Descent into Discord
 ## A multi-user RPG for Discord using discord.py
  
-###Try:
+### Try:
 https://discord.gg/78Xj6AQ
 ### Install:
 Requires python 3 and discord.py
