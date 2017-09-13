@@ -202,7 +202,7 @@ async def on_message(message):
         await client.send_message(message.channel, msgout)
 
     #Merchant
-    help_list.append(["merchant","Access merchant"])
+    help_list.append(["m","Access merchant. '"+bot_command+"m' to view items and '"+bot_command+"m item-name' to buy."])
     if (cmd("m")):
         print("sale list"+str(for_sale))
         user = find_user()   
@@ -272,8 +272,8 @@ async def on_message(message):
 
 
     #Register Player
-    help_list.append(["r","Registers a new player."])
-    if (cmd("r")):
+    help_list.append(["reg","Registers a new player. '"+bot_command+"reg player-name' to register."])
+    if (cmd("reg")):
         story = "\nSTORY:\nOne day you happen upon a mysterious Discord server. People seem to be playing some kind of RPG... You are not sure exactly what is going on here (or maybe you are) but you decide to register an account.\nYou choose the name "
         story += msgin[1]
         story += ". I guess that will work but I was expecting something a little more creative to be honest...\n\nAnyways, once you log in you are gifted control of an avatar. Your avatar informs you that they have recently fallen through a sinkhole and are stuck in this world of mythos, fantasy and discord. They request your help to survive. They also inform you that the way that you should help them survive is by issuing them commands and communicating with other players effectively to avoid discord (they seem quite optimistic if not a bit naive). Additionally, they inform you that cooperation with other players is the key to saving not only them but their avatar companions and the very world they inhabit.\n\n"
@@ -499,7 +499,7 @@ async def on_message(message):
         await client.send_message(message.channel, msgout)
 
     #Grab
-    help_list.append(["g","Grabs and item on the floor."])
+    help_list.append(["g","Grabs and item on the floor. '"+bot_command+"g item-name' to grab. Supports multiple item names separated by a space."])
     if (cmd("g")) and (death_check(user)==False):
         for x in msgin[1:]:
             user = find_user()    
@@ -547,7 +547,7 @@ async def on_message(message):
     if (cmd("help")):
         msgout = "Descent into Discord - ALPHA\n\nA Discord Dungeon Crawler for any number of players written in Python 3\n\n"
         for x in sorted(help_list):
-            msgout += bot_command+' \n'.join(x).replace("\n", "\n--")+"\n\n"
+            msgout += GText(bot_command+' \n'.join(x).replace("\n", "\n--")+"\n\n")
         await client.send_message(message.channel, msgout)
 
     if (death_check(user)==True):

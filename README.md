@@ -2,7 +2,7 @@
 ## A multi-user RPG for Discord using discord.py
  
 ### Try:
-https://discord.gg/78Xj6AQ
+<span class="button1">https://discord.gg/78Xj6AQ</span>
 ### Install:
 Requires python 3 and discord.py
 ```
@@ -28,4 +28,56 @@ The game might be fun but reading the code is not. The code is very fragile.
 A lot of the text is not written in the correct person and refers to the player when it should refer to the players avatar. 
  
 ### Dev Server:
-Join the development discussion at: https://discord.gg/kyAZw56
+Join the development discussion at: 
+
+<span class="button1">https://discord.gg/kyAZw56<span>
+
+### Current Commands:
+<pre class="commands">
+```
+?!bot 
+--Turns the bot on and off.
+?Run 
+--Run Away!
+?_u 
+--Unregisters a player.
+?a 
+--Attacks
+?g 
+--Grabs and item on the floor. '?g item-name' to grab. Supports multiple item names separated by a space.
+?help 
+--Displays Help!
+?l 
+--Looks around.
+?m 
+--Access merchant. '?m' to view items and '?m item-name' to buy.
+?q 
+--Quaff a potion.
+?reg 
+--Registers a new player. '?reg player-name' to register.
+?s 
+--Checks your player's status.
+?save 
+--Just save the game!
+?t 
+--Travel to a new area.
+```
+</pre>
+Note: The Command Key, in this case '?' can be easily changed from within the code to make sure that there is no conflict with other bots. 
+
+<style>
+.button1{
+background:forestgreen;
+color:white;
+padding:1em;
+border-radius:0.25em;
+}
+.button1 a{
+color:white;
+}
+.commands{
+	background:#333;
+    color:forestgreen;
+    padding:1em;
+}
+</style>
