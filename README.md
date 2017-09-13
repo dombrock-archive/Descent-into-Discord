@@ -2,7 +2,7 @@
 ## A multi-user RPG for Discord using discord.py
  
 ### Try:
-<span class="button1">https://discord.gg/78Xj6AQ</span>
+https://discord.gg/78Xj6AQ
 ### Install:
 Requires python 3 and discord.py
 ```
@@ -30,10 +30,10 @@ A lot of the text is not written in the correct person and refers to the player 
 ### Dev Server:
 Join the development discussion at: 
 
-<span class="button1">https://discord.gg/kyAZw56<span>
+https://discord.gg/kyAZw56
 
 ### Current Commands:
-<pre class="commands">
+
 ```
 ?!bot 
 --Turns the bot on and off.
@@ -62,22 +62,6 @@ Join the development discussion at:
 ?t 
 --Travel to a new area.
 ```
-</pre>
+
 Note: The Command Key, in this case '?' can be easily changed from within the code to make sure that there is no conflict with other bots. 
 
-<style>
-.button1{
-background:forestgreen;
-color:white;
-padding:1em;
-border-radius:0.25em;
-}
-.button1 a{
-color:white;
-}
-.commands{
-	background:#333;
-    color:forestgreen;
-    padding:1em;
-}
-</style>
