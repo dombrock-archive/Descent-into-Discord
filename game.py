@@ -1,13 +1,3 @@
-#anagram puzzles 
-#merchant leaves after 5 battles and does not come back for 3 more? restocking, this is when merch inv should change
-# allow multi grab and ?g item X
-
-#when done, pretify and add more content and saving
-#mod loader would be cool!
-#could possibly use mod loader to fix issues with list order
-#increase level requirements to make game last longer
-
-
 import discord
 import os
 import re
@@ -292,7 +282,7 @@ async def on_message(message):
         story += "Your Descent into Discord can be prolonged but not avoided.\n\n"
         # 0 player-tag , 1 name, 2 HP, 3 item, 4 damage, 5 potions, 6 XP, 7 lvl, 8 max HP, 9 effect, 10 gold, 11 trait, 12 wep acc, 13 trait type, 14 trait level, 15 trait desc
         #                0   1        2   3         4   5 6 7 8  9       10 11    12 13      14 15                                              
-        memories.append([tag,msgin[1],7,'dagger', '1d4',5,0,1,20,"steel",9999,"noob",95,"price",2,"Items from the shop cost 2 less gold."])
+        memories.append([tag,msgin[1],7,'dagger', '1d4',5,0,1,20,"steel",9,"noob",95,"price",2,"Items from the shop cost 2 less gold."])
 
         msgout = tag+GText("Registered "+msgin[1]+"\nWelcome to your Descent into Discord. I will be your Dungeon Master.\n"+story)
         msgout += "\n\nSay:\n"+SText(bot_command+"help")+"\nFor a list of commands."
@@ -652,19 +642,6 @@ def generate_effects_list():
     pp = pprint.PrettyPrinter(indent=4)
     pp.pprint(effects_list)
 
-
-
-#char traits
-#noob, items cost 2 less gold
-#tank + 5 extra health on lvl up
-#deft + 10 acc
-#agile -10 enemy acc
-#specialist - special attacks do 2.0 multi instead of 1.5
-#berserlker Automatically gets 1.5 multi
-#healer - weps do heal not dmg or healing items do 2x, maybe on heal does 1/4 dam as heal to whole party
-#bloodlust, gain full Hp for delivering the killing blow
-#litch, revive on death, keep trait
-#blessed, revive on death, lose trait
 def generate_traits_list():
     global traits_list, traits_dir
     test = []
@@ -683,15 +660,6 @@ def generate_traits_list():
         traits_list.append(ntrait)
     pp = pprint.PrettyPrinter(indent=4)
     pp.pprint(traits_list)
-    #todo
-    #traits_list.append(["healer","heal",0.25,"When this avatar attacks, it does not do damage to the enemy but instead heals the entire party for x0.25 the damage that would have been dealt by it's attack."])
-    #super special add later
-    #traits_list.append(["bloodlust","bloodlust",0,"This avatar recovers all of it's HP when it delivers the final blow to an enemy."])
-    #traits_list.append(["blessed","blessed",0,"When this avatar is killed, it comes back to life with full HP but loses this trait."])
-    #traits_list.append(["litch","litch",0,"When this avatar is killed, it comes back to life with full HP but loses all experience points (avatar level is unaffected)."])
-
-
-
 def LoadData():
     global memories
     memories = [] #holds player data
@@ -710,7 +678,7 @@ generate_items_list()
 generate_effects_list()
 generate_traits_list()
 
-#LoadData() #causing errors if no data is written 
+LoadData() #causing errors if no data is written 
 
 client.run(did_api_key.api_key)
 
