@@ -2,7 +2,7 @@
 ## A multi-user RPG for Discord using discord.py
  
 ### Try:
-https://discord.gg/78Xj6AQ
+https://discord.gg/78Xj6AQ [It's possible that the bot will be offline. Feel free to request that it be turned on!]
 ### Install:
 Requires python 3 and discord.py
 ```
